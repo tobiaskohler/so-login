@@ -11,17 +11,15 @@ Set the two environment variables 'SO_USR' and 'SO_PWD' and assign your respecti
 <li>
 Set a cronjob to whatever time you want the login magic to be happen. E.g., run the script every day at 10:30 pm.
 To grant cronjob access to env variables from step 1, you need to define it in the crontab. E.g.: 
-```
-'30 22 * * * . /etc/profile.d/; cd path-to-your-script && path-to-your-python-executable && ./core.py | ts "%F %T" >> path-to-your-script/so_log 2>&1'
-```
 </li>
-
 </ol>
 
+```bash
+30 22 * * * . /etc/profile.d/; cd path-to-your-script && path-to-your-python-executable && 
+./core.py | ts "%F %T" >> path-to-your-script/so_log 2>&1
+```
 
-have fun using it!
 
-
-
-
+<h2>Any remarks, comments, bugs, etc.?</h2>
+Just give me a hint or a pull request! :) 
 
