@@ -6,7 +6,7 @@ A short, handy python script to automatically login to SO. What is it good for? 
 <ol>
 
 <li>
-Set the two environment variables 'SO_USR' and 'SO_PWD' and assign your respective Stackoverflow Username and Password to them. For this, modify the "env_variables.sh" appropriately. After doing this, move this shell script to /etc/profile.d/ </li>
+Set the two environment variables 'SO_USR' and 'SO_PWD' and assign your respective Stackoverflow Username and Password to them. For this, modify the "set_env.sh" appropriately. After doing this, move this shell script to /etc/profile.d/ </li>
 
 <li>
 Set a cronjob to whatever time you want the login magic to be happen. E.g., run the script every day at 10:30 pm.
