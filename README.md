@@ -10,13 +10,15 @@ Set the two environment variables 'SO_USR' and 'SO_PWD' and assign your respecti
 
 <li>
 Set a cronjob to whatever time you want the login magic to be happen. E.g., run the script every day at 10:30 pm.
-</li>
-
-<li>
-
+To grant cronjob access to env variables from step 1, you need to define it in the crontab. E.g.: ":{"renderDomain":"stacksnippets.net","
+'30 22 * * * . /etc/profile.d/; cd path-to-your-script && path-to-your-python-executable && ./core.py | ts "%F %T" >> path-to-your-script/so_log 2>&1'
 </li>
 
 </ol>
+
+
+have fun using it!
+
 
 
 
