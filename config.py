@@ -6,8 +6,8 @@ def cre():
     USR = os.getenv('SO_USR')
     PWD = os.getenv('SO_PWD')
 
-    credentials = [USR, PWD]
-
+    credentials = {'USR': USR, 'PWD': PWD} 
+ 
     return credentials
 
 if __name__ == 'main':
