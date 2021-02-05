@@ -3,6 +3,9 @@ A short, handy python script to automatically login to SO. What is it good for? 
 
 
 <h2>How to use?</h2>
+[POC](https://github.com/chickenshifu/so-login/blob/main/poc.png)
+[alt text](https://github.com/chickenshifu/so-login/blob/main/poc.png?raw=true)
+![Screenshot](poc.png)
 <ol>
 
 <li>
