@@ -1,12 +1,12 @@
 # stackoverflow-login
-<b>A short, handy python script to automatically login to SO - perfect with CRON :)</b></br>
+<b>A short, handy python script to automatically login to stackoverflow.com - perfect with CRON 🕒 </b></br>
 What is it good for? You can use it as a boilerplate script to build any other automated stuff on it or just to earn your "Enthuastic" or "Fanatic" badge (30 or 100 consecutive days of visit).
 
 
 ![Proof of concept](poc.png)
 
 
-<h2>How to use?</h2>
+<h2>✅ How to use?</h2>
 
 
 <ol>
@@ -26,6 +26,5 @@ To grant cronjob access to env variables from step 1, you need to define it in t
 ```
 
 
-<h2>Any remarks, comments, bugs, etc.?</h2>
-Just give me a hint or a pull request! :) 
-
+<h2>🤔 Any remarks, comments, bugs, etc.?</h2>
+Please feel free to issue pull requests with new ideas or features! :)
