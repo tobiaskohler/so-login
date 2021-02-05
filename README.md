@@ -1,11 +1,14 @@
 # stackoverflow-login
-A short, handy python script to automatically login to SO. What is it good for? You can use it as a boilerplate script to build any other automated stuff on it or just to earn your "Enthuastic" or "Fanatic" badge (30 or 100 consecutive days of visit).
+<b>A short, handy python script to automatically login to SO - perfect with CRON :)</b></br>
+What is it good for? You can use it as a boilerplate script to build any other automated stuff on it or just to earn your "Enthuastic" or "Fanatic" badge (30 or 100 consecutive days of visit).
+
+
+![Proof of concept](poc.png)
 
 
 <h2>How to use?</h2>
-[POC](https://github.com/chickenshifu/so-login/blob/main/poc.png)
-[alt text](https://github.com/chickenshifu/so-login/blob/main/poc.png?raw=true)
-![Screenshot](poc.png)
+
+
 <ol>
 
 <li>
